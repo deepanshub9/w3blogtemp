@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header-start */
+
+.head{
+    max-width: 70%;
+    margin: auto !important;
+}
+.head .title{
+    text-align: center;
+}
+.head .title h2{
+    font-size: 3rem;
+    padding-top: 20px;
+}
+.head .title p{
+    font-size: 18px;
+    padding-top: 30px;
+    
+}
+.title{
+    margin-bottom: 50px;
+}
+.title span{
+    background-color: #000;
+    color: #f1f1f1; 
+    padding: 5px;
+}
+
+/* container start */
+.container{
+    max-width: 95%;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-around;
+    /* height: 70vh; */
+    
+    
+}
+.blog{
+    /* border: 2px solid red; */
+    max-width: 60%;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    
+}
+.blog img{
+    width: 100%;
+
+}
+.blog h3{
+    font-size: 26px;
+    padding: 10px;
+    background: #fff;
+    font-weight: 500;
+
+}
+.blog h5{
+    font-size: 20px;
+    padding: 10px;
+    background: #fff;
+    font-weight: 400;
+}
+.blog h5 span{
+    font-weight: 400;
+    background: #fff;
+    font-weight: 300;
+    
+}
+.blog p{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 15px 10px;
+    background: #fff;
+
+}
+
+.read{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.btn{
+    background: #fff;
+}
+.read .btn button{ 
+    padding: 10px;
+    font-size: 20px;
+    background: #fff !important;
+    color: #000;
+    margin: 10px 15px;
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+
+}
+.comm{
+    font-size: 18px;
+    margin-right: 20px;
+    background: #fff;
+    cursor: pointer;
+
+}
+.comm span{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+.left-side{
+    width: 30%;
+    /* border: 2px solid red; */
+    height: 80%;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.left-side img{
+    width: 100%;
+
+}
+.left-side h3{
+    font-size: 20px;
+    padding: 20px;
+    background: #fff;
+    font-weight: 500;
+}
+.left-side p{
+    padding: 10px;
+    font-weight: 300;
+    background: #fff;
+}
+.container-nd{
+    max-width: 95%;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-around;
+    /* height: 70vh; */
+    padding: 50px 0;
+    
+    
+}
+.left-post{
+    width: 30%;
+    /* border: 2px solid red; */
+    height: 80%;
+    background: #fff;
+    margin-top: -150px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.left-post h4{
+    padding: 20px;
+    border-bottom: 1px solid #cbcbcb;
+    font-size: 26px;
+    font-weight: 400;
+    background: #f1f1f1;
+    
+
+}
+.post{
+    display: flex;
+    justify-content: ;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #cbcbcb;
+}
+.post .img{
+    width: 15%;
+    margin: 10px;
+
+}
+
+.post .img img{
+    width: 100%;
+
+}
+.left-post h5{
+    font-size: 22px;
+    font-weight: 400;
+    background: #fff;
+    cursor: pointer;
+
+}
+.left-post p{
+    font-size: 16px;
+    font-weight: 300;
+    background: #fff;
+    
+    cursor: pointer;
+}
+.text{
+    width: 70%;
+    padding: 10px 0;
+    background: #fff;
+}
+
+footer h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px;
+    background: tan
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        display: block;
+    }
+    .blog{
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .container-nd{
+        display: block;
+    }
+    .left-post{
+        margin-top: 0;
+        width: 100%;
+        
+    }
+
+}
+
+@media (max-width:500px){
+
+}
+
+
+
+
